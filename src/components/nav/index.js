@@ -4,16 +4,7 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
 
-const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "About", href: "/", current: false },
-  { name: "Catalog", href: "/", current: false },
-  { name: "Collection", href: "/", current: false },
-];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
 
 export default function Nav() {
   return (
